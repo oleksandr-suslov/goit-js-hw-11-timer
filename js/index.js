@@ -59,7 +59,7 @@ function updateClockface({ days, hours, mins, secs }) {
 
 const timer = new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('Jun 15, 2021 14:12:40'),
+  targetDate: new Date('Jul 15, 2021 14:12:40'),
   onTick: updateClockface,
 });
 timer.start();
